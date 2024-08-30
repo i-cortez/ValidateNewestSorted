@@ -1,0 +1,14 @@
+{
+  "name": "validatenewestsorted",
+  "version": "1.0.0",
+  "description": "My solution to a challenge to validate that the newest articles on Hacker News are sorted by time stamp using Playwright.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.1"
+  }
+}
