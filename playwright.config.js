@@ -28,7 +28,13 @@ module.exports = defineConfig({
     // baseURL: 'http://127.0.0.1:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    trace: 'on',
+    screenshot: 'on',
+    video: {
+      mode: 'retain-on-failure'
+    },
+    headless: false,
+    testIdAttribute: 'autocomplete'
   },
 
   /* Configure projects for major browsers */
@@ -76,4 +82,3 @@ module.exports = defineConfig({
   //   reuseExistingServer: !process.env.CI,
   // },
 });
-
